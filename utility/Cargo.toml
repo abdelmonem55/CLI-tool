@@ -1,0 +1,16 @@
+[package]
+name = "utility"
+version = "0.1.0"
+authors = ["Abdelmonem"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+thiserror = "1.0.25"
+reqwest = "0.11.3"
+envsubst = "0.2.0"
+regex = "1"
+url = "1.5.1"
+serde = {version = "1.0.126" , features = ["derive"] }
+lazy_static = "1.4.0"

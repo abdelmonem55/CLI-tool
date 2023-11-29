@@ -1,0 +1,43 @@
+[package]
+name = "command"
+version = "0.1.0"
+authors = ["Abdelmonem"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = {version ="2.33.3" , features = ["color"]}
+utility = { path = "../utility"}
+thiserror = "1.0.25"
+chrono = "0.4.19"
+stack = { path = "../stack"}
+proxy = { path = "../proxy"}
+config = { path = "../config"}
+async-trait = "0.1.50"
+reqwest = "0.11.3"
+parse_duration = "2.1.1"
+serde_json = "1.0"
+flags = {path = "../flags"}
+hmac= "0.11.0"
+sha-1 = "0.9.6"
+colour = "0.6.0"
+schema = {path ="../schema"}
+builder = {path ="../builder"}
+exec = {path ="../exec"}
+versioncontol ={path = "../versioncontol"}
+version ={path = "../version"}
+tempdir="0.3.7"
+lazy_static="1.4.0"
+serde_yaml ={version = "0.8.1" }
+serde = {version = "1.0.126" , features = ["derive"] }
+base64 = "0.13.0"
+url = "1.5.1"
+regex = "1.5.4"
+hyper = { version = "0.14", features = ["full"] }
+tokio = {version = "1", features = ["full"]}
+
+
+[dev-dependencies]
+mockito = "0.30.0"
+serde_json = "1.0"

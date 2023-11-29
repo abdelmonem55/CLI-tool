@@ -1,0 +1,23 @@
+[package]
+name = "builder"
+version = "0.1.0"
+authors = ["Abdelmonem"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+utility = { path = "../utility"}
+schema = {path = "../schema"}
+versioncontol = {path = "../versioncontol"}
+stack = {path = "../stack"}
+lazy_static = "1.4.0"
+path-clean="0.1.0"
+exec = {path = "../exec"}
+path_abs = "0.5.1"
+
+
+[dev-dependencies]
+tempdir = "0.3.7"
+rand = "0.7.3"
+
